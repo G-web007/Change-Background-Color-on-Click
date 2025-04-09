@@ -4,10 +4,11 @@
 A beginner-friendly project that changes the background color of the webpage when a button is clicked, using JavaScript.
 
 ## 📘 Javascript Explanation
-
+```
 if (!!x.addEventListener) { 
     // Continue if addEventListener is available
 }
+```
 - !!x.addEventListener - Checks if the browser supports the addEventListener method on the element x (x is a variable)
 - element is an HTML element (like a button, div, or even document)
 
@@ -16,11 +17,13 @@ if (!!x.addEventListener) {
 - ✅ if (x.addEventListener) checks if the method exists.
 - ✅ if (!!x.addEventListener) does the same, but ensures a clean true/false value.
 - ❌ if (!x.addEventListener) means “run this only if addEventListener does not exist,” which is useful only if you're doing compatibility code for very old browsers.
-
+- 
+```
 x.addEventListener("click", function() {
     // Code to run when the button (or element) is clicked
     x.addEventListener("click", changeColor) //x.addEventListener is a method used to attach an event handler (like a click, mouseover, keydown, etc.) 
 });
+```
 
 - ✅ Attaches an event listener to the element x.
 - ✔️ This is where you're telling the browser:
