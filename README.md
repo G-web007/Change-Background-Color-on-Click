@@ -12,20 +12,20 @@ if (!!x.addEventListener) {
 - element is an HTML element (like a button, div, or even document)
 
 #💡 In summary:
-✅ addEventListener depends on the browser (modern browsers support it; old ones might not).
-✅ if (x.addEventListener) checks if the method exists.
-✅ if (!!x.addEventListener) does the same, but ensures a clean true/false value.
-❌ if (!x.addEventListener) means “run this only if addEventListener does not exist,” which is useful only if you're doing compatibility code for very old browsers.
+- ✅ addEventListener depends on the browser (modern browsers support it; old ones might not).
+- ✅ if (x.addEventListener) checks if the method exists.
+- ✅ if (!!x.addEventListener) does the same, but ensures a clean true/false value.
+- ❌ if (!x.addEventListener) means “run this only if addEventListener does not exist,” which is useful only if you're doing compatibility code for very old browsers.
 
 x.addEventListener("click", function() {
     // Code to run when the button (or element) is clicked
     x.addEventListener("click", changeColor) //x.addEventListener is a method used to attach an event handler (like a click, mouseover, keydown, etc.) 
 });
 
-✅ Attaches an event listener to the element x.
-✔️ This is where you're telling the browser:
-“When the user clicks this element, run this function.”
-🔥 This is where the user interaction (click) is handled.
+- ✅ Attaches an event listener to the element x.
+- ✔️ This is where you're telling the browser:
+- “When the user clicks this element, run this function.”
+- 🔥 This is where the user interaction (click) is handled.
 
 ## 📝 Features
 ✅ Click event handling using addEventListener()
