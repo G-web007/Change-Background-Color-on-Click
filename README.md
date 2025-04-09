@@ -28,10 +28,10 @@ x.addEventListener("click", function() {
 - 🔥 This is where the user interaction (click) is handled.
 
 ## 📝 Features
-✅ Click event handling using addEventListener()
-✅ Changes background color to black (#000)
-✅ Simple and clean UI
-✅ Beginner-friendly code
+- ✅ Click event handling using addEventListener()
+- ✅ Changes background color to black (#000)
+- ✅ Simple and clean UI
+- ✅ Beginner-friendly code
 
 ## 🎯 Technologies Used
 - HTML5 for basic page structure
